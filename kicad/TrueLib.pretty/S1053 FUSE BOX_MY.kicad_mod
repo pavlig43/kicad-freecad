@@ -6,7 +6,7 @@
 	(property "Reference" "Ref**"
 		(at 11.60005 -1.085 0)
 		(layer "F.SilkS")
-		(uuid "83607d56-083e-45a6-b09b-fb0b53d3167b")
+		(uuid "f7ed9f6a-d036-4a3b-844a-184e6bef194a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,7 +16,7 @@
 	(property "Value" "S1053 FUSE BOX_MY"
 		(at 11.60005 11.2119 0)
 		(layer "F.Fab")
-		(uuid "53036dd7-24c7-4ba3-9b74-24989c64e043")
+		(uuid "10d63a3a-35ca-4a2e-926a-ce664edd5a3a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,7 +27,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35d3b5b8-a791-459b-bbe2-2512fc62bd32")
+		(uuid "44fd094e-af79-4be5-b885-9d6db84b2d6e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -38,7 +38,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "40be2d2d-ec88-4e35-8920-308d4aa2c595")
+		(uuid "6faa624d-d563-46c2-b72a-0424bf4e1b2f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "cff68045-2b31-4f3b-939c-068e9aef2d4a")
+		(uuid "e7dbd2b8-7e88-4325-9aa0-3be33641363c")
 	)
 	(fp_rect
 		(start -1.75 3.375)
@@ -66,13 +66,13 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "09800933-9962-4c8c-abe5-705965d38f1a")
+		(uuid "b7a91866-2699-4d1c-ac6e-1ed9ab0cb7cf")
 	)
 	(fp_text user "FUSE BOX"
 		(at 4.826 4.4704 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "959b4e36-959d-4fb3-8d5a-2871242d824e")
+		(uuid "2e7c9606-c508-4ad7-b1f4-146b10858a99")
 		(effects
 			(font
 				(size 1.6256 1.6256)
@@ -84,7 +84,7 @@
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "43afe17a-6ad1-4c33-ae43-4cc32ea29f8e")
+		(uuid "4b604a30-2748-4b6a-b2cb-9ea2a36061c0")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -101,7 +101,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "66afdc18-2d9f-4db9-bd3c-e70c5bae80d0")
+		(uuid "9bd79a73-3ddf-43a8-ab93-08fe64c4f6e8")
 	)
 	(pad "2" thru_hole oval
 		(at 21.9 5.125)
@@ -112,7 +112,7 @@
 		(solder_mask_margin 0.051)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "f0864880-4847-4b2f-b83f-680b98c68f45")
+		(uuid "e3565913-c1f6-42ec-8fa1-0ee53bdb01b1")
 	)
 	(embedded_fonts no)
 	(model "${TRUE_LIB}/kicad/TrueLib.3dshapes/S1053_with_cover.step"

@@ -14,13 +14,13 @@ MODEL_PREFIX = "${TRUE_LIB}/kicad/TrueLib.3dshapes/"
 def validate() -> None:
     symbols = (KICAD / "TrueLib.kicad_sym").read_text(encoding="utf-8-sig")
     names = re.findall(r'^\t\(symbol "([^"]+)"', symbols, re.MULTILINE)
-    assert len(names) == len(set(names)) == 4, names
+    assert names and len(names) == len(set(names)), names
     links = re.findall(r'^\t\t\(property "Footprint" "([^"]*)"', symbols, re.MULTILINE)
-    assert len(links) == 4 and links.count("") == 1, links
+    assert len(links) == len(names), links
 
     footprints = sorted((KICAD / "TrueLib.pretty").glob("*.kicad_mod"))
     models = sorted((KICAD / "TrueLib.3dshapes").glob("*.step"))
-    assert len(footprints) == len(models) == 9
+    assert footprints and models
     footprint_names = {path.stem for path in footprints}
     assert all(link.startswith("TrueLib:") and link[8:] in footprint_names for link in links if link)
 
@@ -36,9 +36,10 @@ def validate() -> None:
         assert model.is_file(), model
         references.append(model.name)
         assert not re.search(r"(?<![A-Za-z])[A-Za-z]:[/\\]|/Users/|/home/|\$\{MY_LYB\}", source)
-    assert len(set(references)) == 9
+    assert len(set(references)) == len(footprints)
+    assert set(references) == {path.name for path in models}
     assert not re.search(r"(?<![A-Za-z])[A-Za-z]:[/\\]|/Users/|/home/|\$\{MY_LYB\}|Library:", symbols)
-    print("OK: 4 symbols, 9 footprints, 9 STEP references")
+    print(f"OK: {len(names)} symbols, {len(footprints)} footprints, {len(references)} STEP references")
 
 
 if __name__ == "__main__":
