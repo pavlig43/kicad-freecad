@@ -1,0 +1,7 @@
+*.step -text
+*.kicad_mod text eol=lf
+*.kicad_sym text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.cmd text eol=crlf
