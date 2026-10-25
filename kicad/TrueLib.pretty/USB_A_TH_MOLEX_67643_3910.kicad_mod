@@ -8,7 +8,7 @@
 	(property "Reference" "J**"
 		(at 8.5459 -2.5224 90)
 		(layer "F.SilkS")
-		(uuid "5fd72d58-7822-4b8a-bd66-aaf2b781954a")
+		(uuid "a93e2434-eb83-45db-848b-a97d6c8ebeb3")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "USB_A_TH_MOLEX_67643_3910"
 		(at 8.5459 -4.3004 90)
 		(layer "F.SilkS")
-		(uuid "355a4a85-ebab-4a7c-9db4-b46bcffc1646")
+		(uuid "f4375b7e-1884-49b2-a614-95b4967269d7")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f5c7b19f-2f8e-4a75-9183-52b9b7c0bdaf")
+		(uuid "18949f0e-3502-4fa3-8772-058dd933c9bc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "76b02346-bce5-429f-8aa1-b6bbe27fe4f0")
+		(uuid "360414a0-77a4-48bc-84ee-4d2327aa7d1d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1e8eada2-df5f-448c-bb9f-6b716b18fcf5")
+		(uuid "15ab486c-12a1-4dfd-b5ca-791ccbc6c104")
 	)
 	(fp_line
 		(start -3.7257 -1.185)
@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a753111f-f7ed-41dd-b6bc-63ccd70f3179")
+		(uuid "f487c771-12d0-496d-b2dd-1be56bb48086")
 	)
 	(fp_line
 		(start -3.7257 5.17)
@@ -79,7 +79,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "16b0b18c-eb32-4b3b-aae8-3ae19119fade")
+		(uuid "d2008d5d-1e2d-42aa-8ac2-dacc5307e1bd")
 	)
 	(fp_line
 		(start -3.7257 13.01)
@@ -89,7 +89,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b84d4e2a-3417-48bc-b1ca-e3cd6e18b085")
+		(uuid "c23be6aa-49ce-4c5a-9880-de090723d2b7")
 	)
 	(fp_line
 		(start 10.739 -1.185)
@@ -99,7 +99,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d64bed07-4d64-48b9-9ba2-ded07d847cef")
+		(uuid "a43e4739-0781-40ab-9aa7-1e83cf55ef70")
 	)
 	(fp_line
 		(start 10.739 5.17)
@@ -109,7 +109,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8eab3646-a9a1-4ba5-a222-2a3b50bc6ba2")
+		(uuid "515b791f-1bb8-4196-b6eb-b25ab01d7159")
 	)
 	(fp_line
 		(start -3.993 12.99)
@@ -119,7 +119,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "73cbc923-7b8c-4e6c-90be-c985fc34db3f")
+		(uuid "12833e1b-9178-4a6e-b64c-b60151f0dac5")
 	)
 	(fp_rect
 		(start -3.1 -1.21)
@@ -130,12 +130,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "37ff0898-94dc-47b1-bccb-bea41331baff")
+		(uuid "0e8d2552-7e4e-4503-9126-55092bb402d4")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 3.4999 1.355 0)
 		(layer "F.Fab")
-		(uuid "8606a0eb-b3af-4776-b5ea-49c119f301f8")
+		(uuid "9b1c3004-1879-47db-9d93-844eeea94989")
 		(effects
 			(font
 				(size 1 1)
@@ -149,7 +149,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "51cef28e-15cb-4835-8de4-c26d9ecc07e1")
+		(uuid "aa34552a-a142-4506-ab52-b0c3e26dc08b")
 	)
 	(pad "2" thru_hole rect
 		(at 2.5 0)
@@ -157,7 +157,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c3809dad-e734-4134-99f3-cce448d1a631")
+		(uuid "7df6fd80-5b04-4e34-935c-2610fb10a0fe")
 	)
 	(pad "3" thru_hole rect
 		(at 4.5 0)
@@ -165,7 +165,7 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "64e8f00e-c93a-465a-a7d1-ef8867596375")
+		(uuid "7efca193-e703-42ae-a0a4-367cddd08b8a")
 	)
 	(pad "4" thru_hole rect
 		(at 7 0)
@@ -173,23 +173,23 @@
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "ccfe0a0f-abc5-41cb-9245-e6f98b45c2a2")
+		(uuid "5aa7ab58-82e2-48d7-afe6-f4b8ea11809b")
 	)
 	(pad "5" thru_hole circle
 		(at -3.07 2.71)
-		(size 4.3 4.3)
+		(size 4.7 4.7)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "13e46646-03d5-45b7-99f6-e5a18cd3a31b")
+		(uuid "5b501c01-80b0-4fab-9e64-2cbdd44d853d")
 	)
 	(pad "6" thru_hole circle
 		(at 10.07 2.71)
-		(size 4.3 4.3)
+		(size 4.7 4.7)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "94a9365b-feaf-4de1-ba7e-0ba1c1e86eda")
+		(uuid "ae0c92d8-0159-4818-8cb2-e44ab07beae1")
 	)
 	(embedded_fonts no)
 	(model "${TRUE_LIB}/kicad/TrueLib.3dshapes/USB_A_TH_MOLEX_67643_3910.step"
