@@ -53,7 +53,7 @@
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.7257 -1.185)
-		(end -3.7257 0.9461)
+		(end -3.7257 0.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -72,7 +72,7 @@
 		(uuid "a753111f-f7ed-41dd-b6bc-63ccd70f3179")
 	)
 	(fp_line
-		(start -3.7257 4.4732)
+		(start -3.7257 5.17)
 		(end -3.7257 13.01)
 		(stroke
 			(width 0.254)
@@ -93,7 +93,7 @@
 	)
 	(fp_line
 		(start 10.739 -1.185)
-		(end 10.739 0.9519)
+		(end 10.739 0.25)
 		(stroke
 			(width 0.254)
 			(type solid)
@@ -102,7 +102,7 @@
 		(uuid "d64bed07-4d64-48b9-9ba2-ded07d847cef")
 	)
 	(fp_line
-		(start 10.739 4.4679)
+		(start 10.739 5.17)
 		(end 10.739 13.039)
 		(stroke
 			(width 0.254)
@@ -177,7 +177,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at -3.07 2.71)
-		(size 3.6 3.6)
+		(size 4.3 4.3)
 		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -185,7 +185,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at 10.07 2.71)
-		(size 3.6 3.6)
+		(size 4.3 4.3)
 		(drill 2.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
